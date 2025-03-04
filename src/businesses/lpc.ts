@@ -7,6 +7,7 @@ const lpc: Business = {
   description: "LPC crafts premium leather golf headcovers with a focus on quality and craftsmanship.",
   logo: "LPCLogo",
   hours: "M-F 10am-5pm",
+  linkWording: "Shop Now",
   website: "https://www.lpcgolf.com/",
   founderInfo: {
     name: "Karl Theobald and Leilani Greer",

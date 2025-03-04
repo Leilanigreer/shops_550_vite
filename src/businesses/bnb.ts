@@ -7,6 +7,7 @@ const bnb: Business = {
   description: "B&B is ready to wear menswear.",
   logo: "BnBLogo",
   hours: "Open: 1-6pm M-F",
+  linkWording: "Visit website",
   website: "https://bbmenswear.com/",
   founderInfo: {
     name: "Benny Ducket",

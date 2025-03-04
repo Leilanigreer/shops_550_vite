@@ -5,6 +5,7 @@ export interface Business {
   description: string;
   logo: string;
   hours?: string;
+  linkWording?: string;
   website?: string;
   founderInfo?: FounderInfo;
 }

@@ -7,6 +7,7 @@ const eleventhState: Business = {
   description: "11th State creates custom clothing tailored to you.",
   logo: "eleventhstateLogo",
   hours: "By appointment only",
+  linkWording: "Visit website",
   website: "https://www.eleventhstate.com/",
   founderInfo: {
     name: "Catherine Conway",
