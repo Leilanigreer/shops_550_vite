@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background -->
+  <rect width="100" height="100" rx="15" fill="#DDD0C8"/>
+  
+  <!-- Building outline representing 550 Montgomery -->
+  <rect x="15" y="25" width="70" height="65" fill="#FFFFFF" stroke="#323232" stroke-width="2"/>
+  
+  <!-- Windows representing the shops on second floor -->
+  <rect x="25" y="35" width="10" height="15" fill="#323232" opacity="0.8"/>
+  <rect x="45" y="35" width="10" height="15" fill="#323232" opacity="0.8"/>
+  <rect x="65" y="35" width="10" height="15" fill="#323232" opacity="0.8"/>
+  <rect x="25" y="60" width="10" height="15" fill="#323232" opacity="0.8"/>
+  <rect x="45" y="60" width="10" height="15" fill="#323232" opacity="0.8"/>
+  <rect x="65" y="60" width="10" height="15" fill="#323232" opacity="0.8"/>
+  
+  <!-- Building entrance -->
+  <rect x="40" y="75" width="20" height="15" fill="#323232"/>
+  
+  <!-- "550" text at the top -->
+  <text x="50" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#323232" text-anchor="middle">550</text>
+</svg>
