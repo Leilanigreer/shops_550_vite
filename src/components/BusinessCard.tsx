@@ -14,8 +14,13 @@ const BusinessCard: React.FC<BusinessCardProps> = ({ business, onClick }) => {
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-all hover:shadow-lg h-[300px] flex flex-col"
-      onClick={onClick}
+      className="bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg h-[300px] flex flex-col sm:cursor-pointer cursor-default"
+      onClick={() => {
+        // Only trigger onClick on non-mobile screens
+        if (window.innerWidth >= 640) {
+          onClick();
+        }
+      }}
     >
       <div className="h-1/3  flex items-center justify-center p-3">
         {business.logo ? (
@@ -44,6 +49,8 @@ const BusinessCard: React.FC<BusinessCardProps> = ({ business, onClick }) => {
             <a
               href={business.website || '#'}
               className="text-gray-600 hover:text-gray-900 text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
               {business.linkWording || 'Visit website'}
