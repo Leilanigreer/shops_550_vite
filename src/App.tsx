@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Business } from './types/business.ts';
 import allBusinesses from './businesses/index.ts';
 import BusinessCards from './components/BusinessCard';
