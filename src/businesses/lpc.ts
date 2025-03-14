@@ -4,9 +4,9 @@ const lpc: Business = {
   id: "lpc",
   name: "LPC",
   tagline: "LPC is a luxury menswear brand that offers a range of services from custom clothing to custom accessories.",
-  description: "LPC crafts premium leather golf headcovers with a focus on quality and craftsmanship.",
+  description: "LPC Golf crafts premium leather golf headcovers and accessories with a focus on quality and craftsmanship.",
   logo: "LPCLogo",
-  hours: "M-F 10am-5pm",
+  hours: "Open: 10am-5pm M-F",
   linkWording: "Shop Now",
   website: "https://www.lpcgolf.com/",
   founderInfo: {

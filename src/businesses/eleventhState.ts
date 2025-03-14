@@ -4,7 +4,7 @@ const eleventhState: Business = {
   id: "eleventh-state",
   name: "11th State",
   tagline: "11th State creates custom clothing tailored to you",
-  description: "11th State creates custom clothing tailored to you.",
+  description: "Transforming the way we dress with intention-custom clothing that exudes supreme confidence.",
   logo: "eleventhstateLogo",
   hours: "By appointment only",
   linkWording: "Visit website",

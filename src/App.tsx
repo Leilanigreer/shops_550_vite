@@ -26,9 +26,9 @@ function App() {
         </div>
       </section>
 
-      {selectedBusiness?.founderInfo && (
+      {/* {selectedBusiness?.founderInfo && (
         <BusinessDetail business={selectedBusiness} onClose={() => setSelectedBusiness(null)} />
-      )}
+      )} */}
     </div>
   );
 }
