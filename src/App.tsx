@@ -4,7 +4,7 @@ import BusinessCards from './components/BusinessCard';
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[#DDD0C8]">
+    <div className="min-h-screen w-full bg-[#DDD0C8] flex flex-col">
       <header className="w-full py-12">
         <div className="container mx-auto text-center px-4">
           <p className="uppercase text-sm tracking-widest text-[#323232]"> Featuring </p>
@@ -13,7 +13,7 @@ function App() {
         </div>
       </header>
 
-      <section className="container max-w-6xl mx-auto px-4 py-12">
+      <section className="container max-w-6xl mx-auto px-4 py-12 flex-1">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {allBusinesses.map((business) => (
             <BusinessCards
@@ -29,6 +29,20 @@ function App() {
       {selectedBusiness?.founderInfo && (
         <BusinessDetail business={selectedBusiness} onClose={() => setSelectedBusiness(null)} />
       )} */}
+
+      <footer className="w-full py-6 text-center text-[#323232] bg-[#E5DED8] shadow-inner">
+        <p className="text-sm">
+          Created with <span className="text-purple-600">♥</span> by{' '}
+          <a
+            href="https://leilanigreer.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#323232] hover:text-gray-700 underline"
+          >
+            Leilani Greer
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
