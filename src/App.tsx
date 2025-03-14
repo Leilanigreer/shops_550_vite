@@ -1,13 +1,8 @@
-import { useState } from 'react';
-import { Business } from './types/business.ts';
 import allBusinesses from './businesses/index.ts';
 import BusinessCards from './components/BusinessCard';
-import BusinessDetail from './components/BusinessDetail';
-
+// import BusinessDetail from './components/BusinessDetail';
 
 function App() {
-  const [selectedBusiness, setSelectedBusiness] = useState<Business | null>(null);
-
   return (
     <div className="min-h-screen w-full bg-[#DDD0C8]">
       <header className="w-full py-12">
@@ -21,12 +16,17 @@ function App() {
       <section className="container max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {allBusinesses.map((business) => (
-            <BusinessCards key={business.id} business={business} onClick={() => setSelectedBusiness(business)} />
+            <BusinessCards
+              key={business.id}
+              business={business}
+              onClick={() => {/* Disabled for now */ }}
+            />
           ))}
         </div>
       </section>
 
-      {/* {selectedBusiness?.founderInfo && (
+      {/* Business details feature temporarily disabled
+      {selectedBusiness?.founderInfo && (
         <BusinessDetail business={selectedBusiness} onClose={() => setSelectedBusiness(null)} />
       )} */}
     </div>
