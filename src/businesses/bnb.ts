@@ -6,7 +6,7 @@ const bnb: Business = {
   tagline: "B&B is ready to wear menswear.",
   description: "B&B is ready to wear menswear.",
   logo: "BnBLogo",
-  hours: "Open: 1-6pm M-F",
+  hours: "Open: 12pm-7pm M-F or by appt",
   linkWording: "Visit website",
   website: "https://bbmenswear.com/",
   founderInfo: {

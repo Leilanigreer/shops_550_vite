@@ -8,7 +8,7 @@ const barberJoeRoberts: Business = {
   logo: "JRLogo",
   hours: "By appointment only",
   linkWording: "Book an appointment",
-  website: "https://barberjoeroberts.com/appointments/",
+  website: "https://barberjoeroberts.com/",
   founderInfo: {
     name: "Joe Roberts",
     title: "Master Barber & TasteMaker",
