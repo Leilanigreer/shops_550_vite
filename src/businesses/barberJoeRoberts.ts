@@ -4,7 +4,7 @@ const barberJoeRoberts: Business = {
   id: "barber-joe-roberts",
   name: "Barber Joe Roberts",
   tagline: "Master Barber Joe Roberts prefects your style with precision cuts and grooming.",
-  description: "Master Barber Joe Roberts prefects your style with precision cuts and grooming.",
+  description: "Experience the art of precision cuts and expert grooming at its finest. Your hair deserves the best.",
   logo: "JRLogo",
   hours: "By appointment only",
   linkWording: "Book an appointment",
