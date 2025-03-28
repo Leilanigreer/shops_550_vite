@@ -4,7 +4,7 @@ import barberJoeRoberts from './barberJoeRoberts.ts';
 import lpc from './lpc.ts';
 import { Business } from '../types/business.ts';
 
-const allBusinesses: Business[] = [eleventhState, bnb, barberJoeRoberts, lpc];
+const allBusinesses: Business[] = [bnb, eleventhState, barberJoeRoberts, lpc];
 
 export default allBusinesses;
 
